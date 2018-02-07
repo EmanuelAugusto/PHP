@@ -2,18 +2,18 @@
 
 # PROJETO #
 
-Desenvolva um sistema de gerênciamento acadêmico, o sistema deverá conter:
+Desenvolva um mini sistema de gerenciamento acadêmico, o sistema deverá conter:
 
 * Cadastro, Alteração, Remoção e Detalhamento de:
-  * Matriculas;
+  * Matrículas;
   * Alunos;
   * Disciplinas;
 
-Os alunos irão possuir: nome;
+Os alunos irão possuir: id, nome, data de nascimento;
 
-As disciplinas irão possuir: nome;
+As disciplinas irão possuir: id, nome;
 
-As matriculas irão possuir: aluno e disciplinas;
+As matrículas irão possuir: id, período, aluno e disciplina(s);
 
 O sistema deverá permitir que seja registrado para cada Aluno duas notas em uma determinada disciplina;
  
@@ -21,10 +21,10 @@ No detalhamento do aluno serão exibidas:
 
 * Nome;
 * Matriculas;
-    * Disciplinas;
-      * Nome da Disciplina;
-      * Notas do aluno na Disciplina;
-      * Média do aluno na Disciplina;
+  * Disciplinas;
+    * Nome da Disciplina;
+    * Notas do aluno na Disciplina;
+    * Média do aluno na Disciplina;
 * Média GERAL;
 
 No detalhamento da disciplina serão exibidas:
@@ -49,6 +49,12 @@ No detalhamento da disciplina serão exibidas:
 
 * Testes unitários;
 
+# AVALIAÇÃO #  
+
+* Serão avaliados os seguintes pontos:
+  * Lógica de desenvolvimento;
+  * Organização e Estrutura do código;
+  * 
 
 # INSTRUÇÕES #
 
@@ -56,5 +62,9 @@ No detalhamento da disciplina serão exibidas:
 
 * O repositório deverá ser público para que possamos realizar a correção do teste.
 
-* Os projetos deverão ser enviados via MERGE REQUEST até às 23:59 do dia dia 10/02/2017.
+* Os projetos deverão ser enviados via PULL REQUEST até às 23:59 do dia dia 10/02/2017.
+
+# ATENÇÃO #
+
+* Não se deve tentar fazer o PUSH diretamente para ESTE repositório!
 
