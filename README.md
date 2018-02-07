@@ -15,22 +15,29 @@ As disciplinas irão possuir: nome;
 
 As matriculas irão possuir: aluno e disciplinas;
 
-
 O sistema deverá permitir que seja registrado para cada Aluno duas notas em uma determinada disciplina;
  
 No detalhamento do aluno serão exibidas:
 
-*seu nome,suas Matriculas,  notas nas disciplinas e sua média GERAL e por Disciplina;
+* Nome;
+* Matriculas;
+  * Disciplinas;
+    * Nome da Disciplina;
+    * Notas do aluno na Disciplina;
+    * Média do aluno na Disciplina;
+* Média GERAL;
 
-No detalhamento da disciplina deverá ser exibido a listagem de alunos ordenados de forma DECRESCENTE pela média.
+No detalhamento da disciplina serão exibidas:
 
-# INFORMAÇÕES #
+* A listagem de alunos ordenados da maior para menor média.
 
-* Todo o projeto deverá ser desenvolvido utilizando PHP para o backend e Mysql para o banco de dados.
+# INFORMAÇÕES TÉCNICAS #
 
-* O repositório deve conter todos os códigos e artefatos desenvolvidos para o projeto.
+* O projeto deverá ser desenvolvido utilizando PHP para o backend e Mysql para o banco de dados.
 
-* O repositório deve conter o script de criação das tabelas do banco de dados.
+* O repositório deverá conter todos os códigos e artefatos desenvolvidos para o projeto.
+
+* O repositório deverá conter o script de criação das tabelas do banco de dados.
 
 # PONTOS EXTRAS #
 
