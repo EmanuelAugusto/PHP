@@ -21,10 +21,10 @@ No detalhamento do aluno serão exibidas:
 
 * Nome;
 * Matriculas;
-  * Disciplinas;
-    * Nome da Disciplina;
-    * Notas do aluno na Disciplina;
-    * Média do aluno na Disciplina;
+    * Disciplinas;
+      * Nome da Disciplina;
+      * Notas do aluno na Disciplina;
+      * Média do aluno na Disciplina;
 * Média GERAL;
 
 No detalhamento da disciplina serão exibidas:
