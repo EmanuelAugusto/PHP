@@ -6,19 +6,23 @@ Desenvolva um sistema de gerênciamento acadêmico, o sistema deverá conter:
 
 * Cadastro, Alteração, Remoção e Detalhamento de Matriculas;
 
-As matriculas irão conter um aluno e suas disciplinas
+As matriculas irão conter um aluno e suas disciplinas;
 
 * Cadastro, Alteração, Remoção e Detalhamento de Disciplinas;
 
+As disciplinas irão possuir apenas nome;
+
 * Cadastro, Alteração, Remoção e Detalhamento de Alunos;
 
-O sistema deverá permitir que seja registrado para cada Aluno duas notas em uma determinada disciplina.
+Os alunos irão possuir apenas nome;
+
+O sistema deverá permitir que seja registrado para cada Aluno duas notas em uma determinada disciplina;
  
-No detalhamento do aluno serão exibidas suas notas e sua respectiva média
+No detalhamento do aluno serão exibidas suas notas e sua respectiva média;
 
 No detalhamento da disciplina deverá ser exibido a listagem de alunos ordenados de forma DECRESCENTE pela média.
 
-# INFORMAÇÕES TÉCNICAS #
+# INFORMAÇÕES #
 
 * Todo o projeto deverá ser desenvolvido utilizando PHP para o backend e Mysql para o banco de dados.
 
