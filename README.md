@@ -51,7 +51,8 @@ No detalhamento da disciplina serão exibidas:
 
 # AVALIAÇÃO #
 
-Serão avaliados os seguintes pontos:
+Serão avaliados os seguintes aspectos:
+
   * Lógica de desenvolvimento;
   * Organização e Estrutura do código;
   * Modelagem do Banco de Dados;
