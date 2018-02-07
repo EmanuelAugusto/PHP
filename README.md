@@ -4,21 +4,23 @@
 
 Desenvolva um sistema de gerênciamento acadêmico, o sistema deverá conter:
 
-* Cadastro, Alteração, Remoção e Detalhamento de Matriculas;
+* Cadastro, Alteração, Remoção e Detalhamento de:
+  * Matriculas;
+  * Alunos;
+  * Disciplinas;
 
-  As matriculas irão conter um aluno e suas disciplinas;
+Os alunos irão possuir: nome;
 
-* Cadastro, Alteração, Remoção e Detalhamento de Disciplinas;
+As disciplinas irão possuir: nome;
 
-  As disciplinas irão possuir apenas nome;
+As matriculas irão possuir: aluno e disciplinas;
 
-* Cadastro, Alteração, Remoção e Detalhamento de Alunos;
-
-  Os alunos irão possuir apenas nome;
 
 O sistema deverá permitir que seja registrado para cada Aluno duas notas em uma determinada disciplina;
  
-No detalhamento do aluno serão exibidas suas notas e sua respectiva média;
+No detalhamento do aluno serão exibidas:
+
+*seu nome,suas Matriculas,  notas nas disciplinas e sua média GERAL e por Disciplina;
 
 No detalhamento da disciplina deverá ser exibido a listagem de alunos ordenados de forma DECRESCENTE pela média.
 
