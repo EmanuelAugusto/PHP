@@ -49,7 +49,7 @@ No detalhamento da disciplina serão exibidas:
 
 * Testes unitários;
 
-# AVALIAÇÃO #  
+# AVALIAÇÃO #
 
 * Serão avaliados os seguintes pontos:
   * Lógica de desenvolvimento;
