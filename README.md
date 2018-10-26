@@ -27,10 +27,6 @@ No detalhamento do aluno serão exibidas:
     * Média do aluno na Disciplina;
 * Média GERAL;
 
-No detalhamento da disciplina serão exibidas:
-
-* A listagem de alunos ordenados da maior para menor média.
-
 # INFORMAÇÕES TÉCNICAS #
 
 * O projeto deverá ser desenvolvido utilizando PHP para o backend e Mysql para o banco de dados.
@@ -59,11 +55,16 @@ Serão avaliados os seguintes aspectos:
 
 # INSTRUÇÕES #
 
-* Você deverá realizar um fork deste repositório e desenvolver todo o seu projeto no SEU repositório. 
+* Você deverá realizar um fork deste repositório e desenvolver todo o seu projeto no SEU repositório;
 
-* O repositório deverá ser público para que possamos realizar a correção do teste.
+* O repositório deverá ser público para que possamos realizar a correção do teste;
 
-* Os projetos deverão ser enviados via PULL REQUEST até às 23:59 do dia dia 10/02/2017.
+* Os projetos deverão ser enviados via PULL REQUEST para este repositório;
+
+# DICAS #
+
+* Usar o [Slim Framework](https://www.slimframework.com/);
+* Veja a documentação do git [aqui](https://git-scm.com/);
 
 # ATENÇÃO #
 
