@@ -19,21 +19,21 @@ O sistema deverá permitir que seja registrado para cada Aluno duas notas em uma
  
 No detalhamento do aluno serão exibidas:
 
-* Nome;
-* Matriculas;
-  * Disciplinas;
-    * Nome da Disciplina;
-    * Notas do aluno na Disciplina;
-    * Média do aluno na Disciplina;
-* Média GERAL;
+* Nome
+* Matriculas
+  * Disciplinas
+    * Nome da Disciplina
+    * Notas do aluno na Disciplina
+    * Média do aluno na Disciplina
+* Média GERAL
 
 # INFORMAÇÕES TÉCNICAS #
 
-* O projeto deverá ser desenvolvido utilizando PHP para o backend e Mysql para o banco de dados.
+* O projeto deverá ser desenvolvido utilizando PHP para o backend e Mysql para o banco de dados;
 
-* O repositório deverá conter todos os códigos e artefatos desenvolvidos para o projeto.
+* O repositório deverá conter todos os códigos e artefatos desenvolvidos para o projeto;
 
-* O repositório deverá conter o script de criação das tabelas do banco de dados.
+* O repositório deverá conter o script de criação das tabelas do banco de dados;
 
 # PONTOS EXTRAS #
 
