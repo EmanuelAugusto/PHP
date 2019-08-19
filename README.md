@@ -4,13 +4,15 @@
 
 Desenvolva um mini sistema de gerenciamento acadêmico, o sistema deverá conter:
 
-* Login de autenticação:
+# Login de autenticação: #
   * Username ou E-mail;
   * Senha;
 
-* Cadastro, Alteração, Remoção e Detalhamento de:
+
+# Cadastro, Alteração, Remoção e Detalhamento de: #
   * Alunos;
   * Usuários;
+
 
 Os alunos irão possuir: id, nome, data de nascimento;
 
