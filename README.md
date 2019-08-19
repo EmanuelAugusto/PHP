@@ -4,28 +4,17 @@
 
 Desenvolva um mini sistema de gerenciamento acadêmico, o sistema deverá conter:
 
+* Login de autenticação:
+  * Username ou E-mail;
+  * Senha;
+
 * Cadastro, Alteração, Remoção e Detalhamento de:
-  * Matrículas;
   * Alunos;
-  * Disciplinas;
+  * Usuários;
 
 Os alunos irão possuir: id, nome, data de nascimento;
 
-As disciplinas irão possuir: id, nome;
-
-As matrículas irão possuir: id, período, aluno e disciplina(s);
-
-O sistema deverá permitir que seja registrado para cada Aluno duas notas em uma determinada disciplina;
- 
-No detalhamento do aluno serão exibidas:
-
-* Nome
-* Matriculas
-  * Disciplinas
-    * Nome da Disciplina
-    * Notas do aluno na Disciplina
-    * Média do aluno na Disciplina
-* Média GERAL
+Os usuários irão possuir: id, nome, username, e-mail, senha;
 
 # INFORMAÇÕES TÉCNICAS #
 
@@ -37,13 +26,20 @@ No detalhamento do aluno serão exibidas:
 
 # PONTOS EXTRAS #
 
-* Utilização de FrameWork Javascript ( Preferencialmente AngularJs );
+* Criação de API para o back-end;
 
-* Bootstrap;
+* Utilização de FrameWork Javascript para o front-end;
 
 * Arquitetura de Camadas;
 
 * Testes unitários;
+
+# RECOMENDAÇÕES #
+
+* Usar o [Slim Framework] para desenvolvimento da API back-end (https://www.slimframework.com/);
+* Usar AngularJS para desenvolvimento do front-end;
+* Escreva um README no seu projeto descrevendo as tecnologias usadas e por que foram escolhidas;
+* Escreve um README no seu projeto descrevendo como rodar o seu projeto;
 
 # AVALIAÇÃO #
 
@@ -60,11 +56,6 @@ Serão avaliados os seguintes aspectos:
 * O repositório deverá ser público para que possamos realizar a correção do teste;
 
 * Os projetos deverão ser enviados via PULL REQUEST para este repositório;
-
-# DICAS #
-
-* Usar o [Slim Framework](https://www.slimframework.com/);
-* Veja a documentação do git [aqui](https://git-scm.com/);
 
 # ATENÇÃO #
 
