@@ -3,11 +3,12 @@
 # Tecnologias usadas
 - Framawork Laravel: Usado na criação da aplicação no lado back-end, respeitando a arquitetura MVC.
 - Materialize: Usado no lado do cliente, para fornercer uma experiência mais próxima de app nativo do sistema, seguindo o conceito do Mobile-Firste conceitos de UI e UX.
-- Jquery: Usado em algumas animações do materialize. Aluda e facilita o desenvolvimento diminuindo as linhas de código.
+- Jquery: Usado em algumas animações do materialize. Ajuda e facilita o desenvolvimento diminuindo as linhas de código.
 
 # Como rodar o projeto?
 1. No Arquivo .env (SGA/SGA/.env), há as regras do banco de dados.
    Ex.:
+   
   - DB_CONNECTION=mysql
   - DB_HOST=127.0.0.1
   - DB_PORT=3306
