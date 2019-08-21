@@ -31,6 +31,7 @@
   - php artisan db:seed --class=AlunosTableSeeder
   
 5. Rode os seguintes comandos;
+
   - php artisan config:clear
   - php artisan cache:clear
   - php artisan config:cache
