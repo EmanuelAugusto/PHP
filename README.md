@@ -1,65 +1,35 @@
-# SELEÇÃO DE ESTÁGIO EM DESENVOLVIMENTO WEB #
+# Sistema de gerenciamento Acadêmico
 
-# PROJETO #
+# Tecnologias usadas
+- Framawork Laravel: Usado na criação da aplicação no lado back-end, respeitando a arquitetura MVC.
+- Materialize: Usado no lado do cliente, para fornercer uma experiência mais próxima de app nativo do sistema, seguindo o conceito do Mobile-Firste conceitos de UI e UX.
+- Jquery: Usado em algumas animações do materialize. Aluda e facilita o desenvolvimento diminuindo as linhas de código.
 
-Desenvolva um mini sistema de gerenciamento acadêmico, o sistema deverá conter:
+# Como rodar o projeto?
+1. No Arquivo .env (SGA/SGA/.env), há as regras do banco de dados.
+   Ex.:
+  - DB_CONNECTION=mysql
+  - DB_HOST=127.0.0.1
+  - DB_PORT=3306
+  - DB_DATABASE= Coloque aqui o nome do BD
+  - DB_USERNAME= Coloque aqui o nome de usuário
+  - DB_PASSWORD=  Coloque aqui a senha
 
-# Login de autenticação: #
-  * Username ou E-mail;
-  * Senha;
+2. Certifique-se que fez corretamente os passos acima em seguida certifique-se que o laravel e o composer estão instalados na máquina, e então Navegue até a pasta do projeto e rode o comando; 
+- php artisan serve
+
+3. Para rodar as tabelas no banco de dados, digite o seguinte comando;
+-  php artisan migrate
+
+4.Para rodar o usuário, senha de acesso predefinido nas seeds rode os comandos abaixo;
+- php artisan db:seed --class=UsersTableSeeder
+- php artisan db:seed --class=AlunosTableSeeder
+
+5. Pronto tudo configurado, abra o chrome ou navegador de sua preferência e digite o endereço
+- 127.0.0.1:8000
+- email e senha predefinidas são email: unudigital@gmail.com senha: password 
 
 
-# Cadastro, Alteração, Remoção e Detalhamento de: #
-  * Alunos;
-  * Usuários;
 
 
-Os alunos irão possuir: id, nome, data de nascimento;
-
-Os usuários irão possuir: id, nome, username, e-mail, senha;
-
-# INFORMAÇÕES TÉCNICAS #
-
-* O projeto deverá ser desenvolvido utilizando PHP para o backend e Mysql para o banco de dados;
-
-* O repositório deverá conter todos os códigos e artefatos desenvolvidos para o projeto;
-
-* O repositório deverá conter o script de criação das tabelas do banco de dados;
-
-# PONTOS EXTRAS #
-
-* Criação de API para o back-end;
-
-* Utilização de FrameWork Javascript para o front-end;
-
-* Arquitetura de Camadas;
-
-* Testes unitários;
-
-# RECOMENDAÇÕES #
-
-* Usar o [Slim Framework] para desenvolvimento da API back-end (https://www.slimframework.com/);
-* Usar AngularJS para desenvolvimento do front-end;
-* Escreva um README no seu projeto descrevendo as tecnologias usadas e por que foram escolhidas;
-* Escreve um README no seu projeto descrevendo como rodar o seu projeto;
-
-# AVALIAÇÃO #
-
-Serão avaliados os seguintes aspectos:
-
-  * Lógica de desenvolvimento;
-  * Organização e Estrutura do código;
-  * Modelagem do Banco de Dados;
-
-# INSTRUÇÕES #
-
-* Você deverá realizar um fork deste repositório e desenvolver todo o seu projeto no SEU repositório;
-
-* O repositório deverá ser público para que possamos realizar a correção do teste;
-
-* Os projetos deverão ser enviados via PULL REQUEST para este repositório;
-
-# ATENÇÃO #
-
-* Não se deve tentar fazer o PUSH diretamente para ESTE repositório!
 
