@@ -29,6 +29,11 @@
   - php artisan db:seed --class=UsersTableSeeder
 
   - php artisan db:seed --class=AlunosTableSeeder
+  
+5. Rode os seguintes comandos;
+  - php artisan config:clear
+  - php artisan cache:clear
+  - php artisan config:cache
 
 5. Pronto tudo configurado, abra o chrome ou navegador de sua preferência e digite o endereço
 
