@@ -24,7 +24,7 @@
 
   -  php artisan migrate
 
-4.Para rodar o usuário, senha de acesso predefinido nas seeds rode os comandos abaixo;
+4. Para rodar o usuário, senha de acesso predefinido nas seeds rode os comandos abaixo;
 
   - php artisan db:seed --class=UsersTableSeeder
 
